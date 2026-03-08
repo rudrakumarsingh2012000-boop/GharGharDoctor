@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GharGharDoctor</title>
+<link rel="icon" type="image/png" href="image.jpeg">
+<style>
+
+body{
+ font-family: Arial, sans-serif;
+            background-image: url(1.jpeg);
+            opacity: 0.8;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        
+            height: 100vh;
+}
+nav{
+text-align: right;
+background:#0077b6;
+padding:15px;
+position:sticky;
+top:0;
+}
+nav ul{
+list-style:none;
+display:flex;
+justify-content:center;
+margin:0;
+padding:0;
+}
+nav ul li{
+margin:0 20px;
+}
+nav ul li a{
+color:white;
+text-decoration:none;
+font-size:18px;
+font-weight:bold;
+}
+nav ul li a:hover{
+color:yellow;
+}
+section{
+padding:70px;
+text-align:center;
+}
+#home{
+background:#caf0f8;
+}
+#about{
+background:white;
+}
+#login{
+background:#e9f5ff;
+}
+
+input{
+width:90%;
+padding:10px;
+margin:10px;
+}
+button{
+padding:10px 20px;
+background:#0077b6;
+color:white;
+border:none;
+cursor:pointer;
+}
+#contact{
+background:white;
+}
+footer{
+background:#0077b6;
+color:white;
+text-align:center;
+padding:15px;
+}
+</style>
+</head>
+<body>
+    <header>
+<nav>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About Us</a></li>
+
+<li><a href="login.html">Login</a></li>
+
+<li><a href="#contact">Contact Us</a></li>
+
+</ul>
+
+</nav>
+</header>
+<section id="home">
+
+<h1>Welcome to GharGharDoctor</h1>
+
+<p>Your personal health assistant at home.</p>
+
+<p>Get basic medical guidance, health tips and self-care support anytime.</p>
+
+</section>
+
+<section id="about">
+
+<h2>About Us</h2>
+<br>
+<p>
+
+GharGharDoctor is a health awareness platform designed to provide basic medical
+knowledge and guidance for common health problems. Our mission is to make
+healthcare information easily accessible to everyone from the comfort of home.
+
+</p>
+
+</section>
+<br>
+<footer>
+<section style="color: rgb(36, 35, 35);" id="contact">
+
+<h2>Contact Us</h2>
+
+<p>Email: support@gharghardoctor.com</p>
+
+<p>Phone: +91 9876543210</p>
+
+<p>Location: India</p>
+
+</section>
+
+
+<p>© 2026 GharGharDoctor | All Rights Reserved</p>
+
+</footer>
+
+</body>
+
+</html>
